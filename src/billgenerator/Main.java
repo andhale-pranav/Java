@@ -3,7 +3,6 @@ package billgenerator;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
         DeluxePizza dp = new DeluxePizza(true);
         System.out.println(dp.getPrice());
         dp.addTakeaway();
